@@ -11,31 +11,37 @@
         android:id="@+id/back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="307dp"
+        android:layout_marginBottom="667dp"
         android:text="Back"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="227dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:id="@+id/reset_button"
+        android:layout_width="106dp"
+        android:layout_height="46dp"
+        android:text="Reset"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="327dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/timer_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="54dp"
-        tools:layout_editor_absoluteY="326dp" />
+        android:text="Start/Stop"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="327dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/timer_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="263dp" />
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="269dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
