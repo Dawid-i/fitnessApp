@@ -13,17 +13,16 @@
         android:layout_width="344dp"
         android:layout_height="142dp"
         android:layout_margin="8dp"
-        android:layout_marginBottom="16dp"
         android:background="#000FFF"
         android:text="Timer"
         android:textColor="#FFFFFF"
-        android:textSize="40dp"
+        android:textSize="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/workout_button"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintVertical_bias="0.39" />
 
     <Button
         android:id="@+id/workout_button"
@@ -33,13 +32,13 @@
         android:background="#000FFF"
         android:text="Workout"
         android:textColor="#FFFFFF"
-        android:textSize="40dp"
+        android:textSize="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintVertical_bias="0.619" />
 
     <Button
         android:id="@+id/water_button"
@@ -49,25 +48,27 @@
         android:background="#000FFF"
         android:text="Water"
         android:textColor="#FFFFFF"
-        android:textSize="40dp"
+        android:textSize="60dp"
         app:layout_constraintBottom_toTopOf="@+id/workout_button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintVertical_bias="0.868" />
 
     <TextView
         android:id="@+id/home_text"
-        android:layout_width="335dp"
-        android:layout_height="61dp"
+        android:layout_width="344dp"
+        android:layout_height="80dp"
         android:text="HOME PAGE"
         android:textAlignment="center"
         android:textColor="#00C0FF"
-        android:textSize="40dp"
+        android:textSize="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.139" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

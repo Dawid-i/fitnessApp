@@ -16,7 +16,7 @@
             android:name=".water_screen"
             android:exported="false" />
         <activity
-            android:name=".Timer"
+            android:name=".timerScreen"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

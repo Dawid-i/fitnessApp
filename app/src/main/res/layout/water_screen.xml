@@ -8,17 +8,20 @@
 
     <Button
         android:id="@+id/back_button"
-        android:layout_width="85dp"
-        android:layout_height="57dp"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="310dp"
         android:layout_marginBottom="658dp"
         android:background="#0000FF"
         android:text="Back"
-        android:textColor="#ffffff"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

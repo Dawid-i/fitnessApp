@@ -1,5 +1,6 @@
 package com.example.fitnessapp;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,10 +20,11 @@ public class timerScreen extends AppCompatActivity implements View.OnClickListen
     Button reset_button;
 
     TextView timer_txt ;
-    Button timer_button;
+    Button startstop_button;
     Boolean pause = true;
     int count = 0;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,8 +44,8 @@ public class timerScreen extends AppCompatActivity implements View.OnClickListen
 
 
         timer_txt = findViewById(R.id.timer_text);
-        timer_button = findViewById(R.id.timer_button);
-        timer_button.setOnClickListener(this);
+        startstop_button = findViewById(R.id.startstop_button);
+        startstop_button.setOnClickListener(this);
         start_timer();
 
 
@@ -72,7 +74,7 @@ public class timerScreen extends AppCompatActivity implements View.OnClickListen
     public void onClick(View view) {
         if (view == back_button) {
             finish(); // Finish the activity when back button is clicked
-        } else if (view == timer_button) {
+        } else if (view == startstop_button) {
             // Toggle pause/resume functionality
             pause = !pause;
         } else if (view == reset_button) {
